@@ -1,6 +1,28 @@
 # Ignore compiled PDFs
 documents/**/*.pdf
 
-# Ignore Python cache
+# Ignore environment settings
+.env
+
+# Ignore Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore logs or outputs
+*.log
+
+# Ignore virtual environments
+venv/
+.envrc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
