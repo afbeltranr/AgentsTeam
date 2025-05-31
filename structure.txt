@@ -1,0 +1,31 @@
+.
+├── job_application_agents
+│   ├── README.md
+│   ├── agents
+│   │   ├── job_application
+│   │   │   ├── application_agent.py
+│   │   │   ├── cv_cl_generator_agent.py
+│   │   │   └── job_scraper_agent.py
+│   │   └── scholarship_application
+│   │       ├── analyzer_agent.py
+│   │       ├── scholarship_application_agent.py
+│   │       └── scholarship_scraper_agent.py
+│   ├── data
+│   │   ├── applications.csv
+│   │   └── scholarships.csv
+│   ├── documents
+│   │   ├── cover_letters
+│   │   ├── resumes
+│   │   └── scholarship_letters
+│   ├── requirements.txt
+│   ├── run_jobs.py
+│   ├── run_scholarships.py
+│   └── utils
+│       ├── application_form_filler.py
+│       ├── extract_keywords_from_pdf.py
+│       ├── latex_compiler.py
+│       ├── plot_applications.py
+│       └── scrapping_tools.py
+└── structure.txt
+
+10 directories, 18 files

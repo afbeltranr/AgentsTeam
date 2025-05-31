@@ -1,6 +1,31 @@
-pyautogen
+# Core agent and orchestration
+pyautogen==0.2.17  # or latest stable
 openai
+anthropic  # if using Claude
+
+# Web scraping
 beautifulsoup4
 requests
 selenium
-python-dotenv
+webdriver-manager
+
+# PDF parsing
+PyMuPDF  # needed for 'fitz'
+
+# NLP
+nltk
+scikit-learn
+spacy
+unidecode
+
+# Emailing
+yagmail
+keyring  # for secure Gmail credentials (optional but typical with yagmail)
+
+# Data processing
+pandas
+numpy
+
+# Plotting (used in plot_applications.py)
+matplotlib
+seaborn
