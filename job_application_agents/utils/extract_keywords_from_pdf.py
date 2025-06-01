@@ -2,26 +2,46 @@
 
 import fitz  # PyMuPDF
 import re
+import string
+from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import nltk
 
-def extract_text_from_pdf(pdf_path):
-    doc = fitz.open(pdf_path)
-    text = ""
-    for page in doc:
-        text += page.get_text()
-    return text
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
 
-def extract_keywords(text, min_word_length=4):
-    # Very simple keyword extractor: just pick "important" words
-    words = re.findall(r'\b\w{%d,}\b' % min_word_length, text.lower())
-    stopwords = set([
-        "with", "from", "that", "this", "have", "for", "and", "the", "you", "your", 
-        "are", "was", "has", "will", "can", "using", "use", "work", "skills", "experience"
-    ])
-    keywords = [word for word in words if word not in stopwords]
-    keywords = list(set(keywords))  # Remove duplicates
-    return keywords
+def extract_keywords_from_pdf(pdf_path, top_k=10):
+    # 1. Extract text from PDF
+    with fitz.open(pdf_path) as doc:
+        text = " ".join([page.get_text() for page in doc])
 
-def extract_keywords_from_pdf(pdf_path):
-    text = extract_text_from_pdf(pdf_path)
-    keywords = extract_keywords(text)
-    return keywords
+    # 2. Preprocess text
+    text = text.lower()
+    text = re.sub(r'\d+', '', text)
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    words = word_tokenize(text)
+    words = [word for word in words if word not in stopwords.words('english') and len(word) > 2]
+
+    # 3. Apply TF-IDF (yes, on a single document — for term frequency)
+    cleaned_text = " ".join(words)
+    vectorizer = TfidfVectorizer()
+    tfidf_matrix = vectorizer.fit_transform([cleaned_text])
+    tfidf_scores = zip(vectorizer.get_feature_names_out(), tfidf_matrix.toarray()[0])
+    
+    # 4. Sort by relevance
+    ranked_keywords = sorted(tfidf_scores, key=lambda x: x[1], reverse=True)
+
+    # 5. (Optional) Boost priority terms
+    priority_terms = ['python', 'data', 'analysis', 'sql', 'machine', 'learning', 'visualization']
+    boosted = []
+    for word, score in ranked_keywords:
+        if word in priority_terms:
+            boosted.append((word, score + 1.0))  # Boost important keywords
+        else:
+            boosted.append((word, score))
+
+    # 6. Return top-k keywords
+    final_keywords = sorted(boosted, key=lambda x: x[1], reverse=True)
+    return [word for word, _ in final_keywords[:top_k]]
