@@ -3,7 +3,7 @@ name: Daily Job Scraper and CV Generator
 on:
   schedule:
     - cron: '0 9 * * *'  # Runs every day at 9:00 UTC
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
   run-agents:
@@ -29,10 +29,11 @@ jobs:
       run: python scripts/update_readme.py
 
     - name: Push changes using PAT
+      env:
+        TOKEN: ${{ secrets.PERSONAL_TOKEN }}
       run: |
         git config --global user.name "afbeltranr"
         git config --global user.email "afbeltranr@unal.edu.co"
-        git remote set-url origin https://afbeltranr:${{ secrets.PERSONAL_TOKEN }}@github.com/afbeltranr/AgentsTeam.git
         git add README.md data/generated_applications/
         git commit -m "🔁 Update README and save application logs" || echo "No changes to commit"
         git push https://afbeltranr:${TOKEN}@github.com/afbeltranr/AgentsTeam.git HEAD:main
