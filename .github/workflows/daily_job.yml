@@ -28,11 +28,12 @@ jobs:
     - name: Update README with generated applications
       run: python scripts/update_readme.py
 
-    - name: Commit README changes
+    - name: push changes using PAT
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "afbeltranr"
+        git config --global user.email "afbeltranr@unal.edu.co"
+        git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/afbeltranr/AgentsTeam.git
         git add README.md
-        git commit -m "🤖 Update README with latest job matches"
+        git commit -📄 Update README with latest job applications" || echo "No changes to commit"
         git push
       continue-on-error: true

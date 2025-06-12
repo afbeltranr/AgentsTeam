@@ -8,8 +8,6 @@
 
 ## 🧠 Latest Job Matches & Tailored Cover Letters
 
-<!-- AUTO-UPDATE:START -->
-
-_(Summary table will appear here after the first GitHub Actions run)_
-
-<!-- AUTO-UPDATE:END -->
+<!-- JOB_RESULTS_START -->
+(Summary table will appear here after the first GitHub Actions run)
+<!-- JOB_RESULTS_END -->
