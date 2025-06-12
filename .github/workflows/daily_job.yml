@@ -1,0 +1,38 @@
+name: Daily Job Scraper and CV Generator
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Runs every day at 9:00 UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  run-agents:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run job scraping and CV/CL generation
+      run: python run_jobs.py
+
+    - name: Update README with generated applications
+      run: python scripts/update_readme.py
+
+    - name: Commit README changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "🤖 Update README with latest job matches"
+        git push
+      continue-on-error: true
