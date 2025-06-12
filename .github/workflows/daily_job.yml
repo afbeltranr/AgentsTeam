@@ -35,4 +35,4 @@ jobs:
         git remote set-url origin https://afbeltranr:${{ secrets.PERSONAL_TOKEN }}@github.com/afbeltranr/AgentsTeam.git
         git add README.md data/generated_applications/
         git commit -m "🔁 Update README and save application logs" || echo "No changes to commit"
-        git push origin main
+        git push https://afbeltranr:${TOKEN}@github.com/afbeltranr/AgentsTeam.git HEAD:main
