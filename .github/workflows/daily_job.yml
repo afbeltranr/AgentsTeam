@@ -24,3 +24,18 @@ jobs:
 
     - name: Run job scraping and CV/CL generation
       run: python run_jobs.py
+
+    - name: Configure git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Commit and push changes
+      run: |
+        git add data/generated_applications/*.json
+        if ! git diff --cached --quiet; then
+          git commit -m "Update applications.json [skip ci]"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
