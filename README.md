@@ -1,3 +1,4 @@
+
 # Job Application Multi-Agent System
 
 If you want to apply for jobs using a multi-agent system, this repository is for you. 
@@ -6,8 +7,12 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 - **`job_scrapper_agent.py`**: Finds job listings and extracts descriptions. it uses the `BeautifulSoup` library to scrape job listings from a website. The agent is designed to be modular and can be easily extended to scrape job listings from other websites.  
 
-
 ## Features
 
 - Job scrapping from REmoteOK
+
+## Job Applications History
+<!-- AUTO-UPDATE:START -->
+
+<!-- AUTO-UPDATE:END -->
 

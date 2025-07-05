@@ -30,11 +30,15 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+    - name: Update README with job applications history
+      run: |
+        python scripts/update_readme.py
+
     - name: Commit and push changes
       run: |
-        git add data/generated_applications/*.json
+        git add README.md data/generated_applications/*.json
         if ! git diff --cached --quiet; then
-          git commit -m "Update applications.json [skip ci]"
+          git commit -m "Update applications.json and README.md [skip ci]"
           git push
         fi
       env:
