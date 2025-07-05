@@ -14,5 +14,9 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 ## Job Applications History
 <!-- AUTO-UPDATE:START -->
 
+| # | Job Title | Company | Cover Letter Preview |
+|---|-----------|---------|-----------------------|
+| 1 | [Lead Data Engineer](https://remoteok.com/remote-jobs/remote-lead-data-engineer-open-architects-1093295) | Open Architects | Dear Open Architects,  I am applying for the Lead Data En... |
+
 <!-- AUTO-UPDATE:END -->
 
