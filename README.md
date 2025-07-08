@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [Lead Data Engineer](https://remoteok.com/remote-jobs/remote-lead-data-engineer-open-architects-1093295) | Open Architects | Dear Open Architects,  I am applying for the Lead Data En... |
+| 1 | [Software Engineer](https://remoteok.com/remote-jobs/remote-software-engineer-loancrate-1093565) | Loancrate | Dear Loancrate,  I am applying for the Software Engineer ... |
 
 <!-- AUTO-UPDATE:END -->
 
