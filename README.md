@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [Software Engineer](https://remoteok.com/remote-jobs/remote-software-engineer-loancrate-1093565) | Loancrate | Dear Loancrate,  I am applying for the Software Engineer ... |
+| 1 | [Senior TS React Developer](https://remoteok.com/remote-jobs/remote-senior-ts-react-developer-prezly-1093588) | Prezly | Dear Prezly,  I am applying for the Senior TS React Devel... |
 
 <!-- AUTO-UPDATE:END -->
 
