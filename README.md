@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [Work from Home Customer Service Representative](https://remoteok.com/remote-jobs/remote-work-from-home-customer-service-representative-the-singleton-group-1093611) | The Singleton Group | Dear The Singleton Group,  I am applying for the Work fro... |
+| 1 | [$1000 Weekly Virtual Assistant](https://remoteok.com/remote-jobs/remote-1000-weekly-virtual-assistant-the-singleton-group-1093611) | The Singleton Group | Dear The Singleton Group,  I am applying for the $1000 We... |
 
 <!-- AUTO-UPDATE:END -->
 
