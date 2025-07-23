@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [$1000 Weekly Virtual Assistant](https://remoteok.com/remote-jobs/remote-1000-weekly-virtual-assistant-holdon-now-1093611) | HOLDON NOW | Dear HOLDON NOW,  I am applying for the $1000 Weekly Virt... |
+| 1 | [$30 Hourly Virtual Assistant USA RESIDENTS ONLY](https://remoteok.com/remote-jobs/remote-30-hourly-virtual-assistant-usa-residents-only-holdon-now-1093611) | HOLDON NOW | Dear HOLDON NOW,  I am applying for the $30 Hourly Virtua... |
 
 <!-- AUTO-UPDATE:END -->
 
