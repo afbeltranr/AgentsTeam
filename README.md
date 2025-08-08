@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [$30 Hourly Virtual Assistant USA RESIDENTS ONLY](https://remoteok.com/remote-jobs/remote-30-hourly-virtual-assistant-usa-residents-only-holdon-now-1093611) | HOLDON NOW | Dear HOLDON NOW,  I am applying for the $30 Hourly Virtua... |
+| 1 | [Product Engineer](https://remoteok.com/remote-jobs/remote-product-engineer-tolt-1093775) | Tolt | Dear Tolt,  I am applying for the Product Engineer role. ... |
 
 <!-- AUTO-UPDATE:END -->
 
