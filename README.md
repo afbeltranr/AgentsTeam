@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [Product Engineer](https://remoteok.com/remote-jobs/remote-product-engineer-tolt-1093775) | Tolt | Dear Tolt,  I am applying for the Product Engineer role. ... |
+| 1 | [Backend Developer @ lobstr.io Python Scraping Celery](https://remoteok.com/remote-jobs/remote-backend-developer-lobstr-io-python-scraping-celery-lobstr-io-1093607) | lobstr.io | Dear lobstr.io,  I am applying for the Backend Developer ... |
 
 <!-- AUTO-UPDATE:END -->
 
