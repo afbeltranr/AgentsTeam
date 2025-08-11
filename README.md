@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [Backend Developer @ lobstr.io Python Scraping Celery](https://remoteok.com/remote-jobs/remote-backend-developer-lobstr-io-python-scraping-celery-lobstr-io-1093607) | lobstr.io | Dear lobstr.io,  I am applying for the Backend Developer ... |
+| 1 | [$30 Hourly Virtual Assistant USA RESIDENTS ONLY](https://remoteok.com/remote-jobs/remote-30-hourly-virtual-assistant-usa-residents-only-holdon-now-1093611) | HOLDON NOW | Dear HOLDON NOW,  I am applying for the $30 Hourly Virtua... |
 
 <!-- AUTO-UPDATE:END -->
 
