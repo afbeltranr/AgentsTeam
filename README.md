@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [$30 Hourly Virtual Assistant USA RESIDENTS ONLY](https://remoteok.com/remote-jobs/remote-30-hourly-virtual-assistant-usa-residents-only-mastercraft-1093611) | MasterCraft | Dear MasterCraft,  I am applying for the $30 Hourly Virtu... |
+| 1 | [$1000 Weekly Work from Home Personal Assistant](https://remoteok.com/remote-jobs/remote-1000-weekly-work-from-home-personal-assistant-mastercraft-1093884) | MasterCraft | Dear MasterCraft,  I am applying for the $1000 Weekly Wor... |
 
 <!-- AUTO-UPDATE:END -->
 
