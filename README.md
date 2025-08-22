@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [$1000 Weekly Work from Home Personal Assistant](https://remoteok.com/remote-jobs/remote-1000-weekly-work-from-home-personal-assistant-mastercraft-1093884) | MasterCraft | Dear MasterCraft,  I am applying for the $1000 Weekly Wor... |
+| 1 | [Work from Home Virtual Assistant](https://remoteok.com/remote-jobs/remote-work-from-home-virtual-assistant-washing-state-pharmacy-association-1093884) | Washing State Pharmacy Association | Dear Washing State Pharmacy Association,  I am applying f... |
 
 <!-- AUTO-UPDATE:END -->
 
