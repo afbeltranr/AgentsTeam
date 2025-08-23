@@ -19,7 +19,7 @@ Currently this repository is a proof of concept, that uses two agents in collabo
 
 | # | Job Title | Company | Cover Letter Preview |
 |---|-----------|---------|-----------------------|
-| 1 | [Work from Home Virtual Assistant](https://remoteok.com/remote-jobs/remote-work-from-home-virtual-assistant-washing-state-pharmacy-association-1093884) | Washing State Pharmacy Association | Dear Washing State Pharmacy Association,  I am applying f... |
+| 1 | [Work from Home Customer Service Assistant](https://remoteok.com/remote-jobs/remote-work-from-home-customer-service-assistant-washing-state-pharmacy-association-1093884) | Washing State Pharmacy Association | Dear Washing State Pharmacy Association,  I am applying f... |
 
 <!-- AUTO-UPDATE:END -->
 
